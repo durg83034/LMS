@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Seating Arrangement</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Library Seating Arrangement</h1>
+    </header>
+    
+    <main>
+        <div class="floor-plan" id="floorPlan">
+            <!-- Seats will be added dynamically by JavaScript -->
+        </div>
+        
+        <div class="controls">
+            <button id="refreshBtn">Refresh Availability</button>
+            <div class="filter">
+                <label for="capacityFilter">Filter by capacity:</label>
+                <select id="capacityFilter">
+                    <option value="all">All</option>
+                    <option value="1">Single</option>
+                    <option value="2">2 people</option>
+                    <option value="4">4 people</option>
+                </select>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>© 2023 University Library</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
